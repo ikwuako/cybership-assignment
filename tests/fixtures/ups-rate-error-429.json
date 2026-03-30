@@ -1,0 +1,10 @@
+{
+  "response": {
+    "errors": [
+      {
+        "code": "10429",
+        "message": "Too many requests. You have exceeded your rate limit. Please wait before making additional API calls."
+      }
+    ]
+  }
+}

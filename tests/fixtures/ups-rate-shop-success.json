@@ -1,0 +1,115 @@
+{
+  "RateResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "TransactionReference": {
+        "CustomerContext": "cybership-rate-request"
+      }
+    },
+    "RatedShipment": [
+      {
+        "Service": {
+          "Code": "03",
+          "Description": "UPS Ground"
+        },
+        "RatedShipmentAlert": [
+          {
+            "Code": "110971",
+            "Description": "Your invoice may vary from the displayed reference rates"
+          }
+        ],
+        "BillingWeight": {
+          "UnitOfMeasurement": { "Code": "LBS", "Description": "Pounds" },
+          "Weight": "10.0"
+        },
+        "TransportationCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "14.22"
+        },
+        "ServiceOptionsCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "0.00"
+        },
+        "TotalCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "14.22"
+        }
+      },
+      {
+        "Service": {
+          "Code": "12",
+          "Description": "UPS 3 Day Select"
+        },
+        "BillingWeight": {
+          "UnitOfMeasurement": { "Code": "LBS", "Description": "Pounds" },
+          "Weight": "10.0"
+        },
+        "TransportationCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "22.85"
+        },
+        "ServiceOptionsCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "0.00"
+        },
+        "TotalCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "22.85"
+        }
+      },
+      {
+        "Service": {
+          "Code": "02",
+          "Description": "UPS 2nd Day Air"
+        },
+        "BillingWeight": {
+          "UnitOfMeasurement": { "Code": "LBS", "Description": "Pounds" },
+          "Weight": "10.0"
+        },
+        "TransportationCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "38.50"
+        },
+        "ServiceOptionsCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "0.00"
+        },
+        "TotalCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "38.50"
+        },
+        "NegotiatedRateCharges": {
+          "TotalCharge": {
+            "CurrencyCode": "USD",
+            "MonetaryValue": "32.15"
+          }
+        }
+      },
+      {
+        "Service": {
+          "Code": "01",
+          "Description": "UPS Next Day Air"
+        },
+        "BillingWeight": {
+          "UnitOfMeasurement": { "Code": "LBS", "Description": "Pounds" },
+          "Weight": "10.0"
+        },
+        "TransportationCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "67.40"
+        },
+        "ServiceOptionsCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "3.50"
+        },
+        "TotalCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "70.90"
+        }
+      }
+    ]
+  }
+}

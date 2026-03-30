@@ -1,0 +1,14 @@
+{
+  "response": {
+    "errors": [
+      {
+        "code": "110601",
+        "message": "Missing or invalid package weight for package 1."
+      },
+      {
+        "code": "110612",
+        "message": "Invalid shipper postal code."
+      }
+    ]
+  }
+}

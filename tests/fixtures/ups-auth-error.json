@@ -1,0 +1,10 @@
+{
+  "response": {
+    "errors": [
+      {
+        "code": "10401",
+        "message": "Invalid client credentials. Please verify your Client ID and Client Secret."
+      }
+    ]
+  }
+}

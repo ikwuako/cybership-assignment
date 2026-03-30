@@ -1,0 +1,40 @@
+{
+  "name": "cybership-assignment",
+  "version": "1.0.0",
+  "description": "Production-grade shipping carrier integration service — UPS Rating API with OAuth 2.0, extensible to FedEx, USPS, DHL",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "type-check": "tsc --noEmit --project tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["shipping", "carrier", "ups", "typescript", "integration"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.14.0",
+    "dotenv": "^17.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/nock": "^11.1.0",
+    "@types/node": "^25.5.0",
+    "nock": "^14.0.11",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
+}
+
